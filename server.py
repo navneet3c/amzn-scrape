@@ -27,7 +27,7 @@ product_list = [
 ]
 
 def scrape_data(url, filename):
-    url = "https://hypalgesic-seawater.000webhostapp.com/proxy.php?url=" + url
+    #url = "https://hypalgesic-seawater.000webhostapp.com/proxy.php?url=" + url
     response = requests.get(url)
     data = response.text
     
